@@ -40,6 +40,7 @@ class WebBrowserViewController: UIViewController, UIWebViewDelegate, UITextField
     
     private func registerURLPorotcol(){
         URLProtocol.registerClass(CustomizedURLProtocol.self)
+        URLProtocol.registerClass(LocalResourceURLProtocol.self)
     }
 
     override func didReceiveMemoryWarning() {

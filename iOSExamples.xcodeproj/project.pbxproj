@@ -14,6 +14,8 @@
 		E4E45FEA1EF5A7E600F6FF21 /* WebBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E45FE91EF5A7E600F6FF21 /* WebBrowser.storyboard */; };
 		E4E45FEC1EF5A82F00F6FF21 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FEB1EF5A82F00F6FF21 /* WebBrowserViewController.swift */; };
 		E4E45FEE1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FED1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift */; };
+		E4E45FF01EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */; };
+		E4E45FF21EF7543400F6FF21 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E45FF11EF7543400F6FF21 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E4E45FE91EF5A7E600F6FF21 /* WebBrowser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WebBrowser.storyboard; path = WebBrowserInterceptor/WebBrowser.storyboard; sourceTree = "<group>"; };
 		E4E45FEB1EF5A82F00F6FF21 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebBrowserViewController.swift; path = WebBrowserInterceptor/WebBrowserViewController.swift; sourceTree = "<group>"; };
 		E4E45FED1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizedURLProtocol.swift; path = WebBrowserInterceptor/CustomizedURLProtocol.swift; sourceTree = "<group>"; };
+		E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalResourceURLProtocol.swift; path = WebBrowserInterceptor/LocalResourceURLProtocol.swift; sourceTree = "<group>"; };
+		E4E45FF11EF7543400F6FF21 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +75,11 @@
 		E4E45FE81EF5A79F00F6FF21 /* WebBrowserInterceptor */ = {
 			isa = PBXGroup;
 			children = (
+				E4E45FF11EF7543400F6FF21 /* test.png */,
 				E4E45FE91EF5A7E600F6FF21 /* WebBrowser.storyboard */,
 				E4E45FEB1EF5A82F00F6FF21 /* WebBrowserViewController.swift */,
 				E4E45FED1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift */,
+				E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */,
 			);
 			name = WebBrowserInterceptor;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 				E4E45FEA1EF5A7E600F6FF21 /* WebBrowser.storyboard in Resources */,
 				E4E45FDE1EF5A77100F6FF21 /* Assets.xcassets in Resources */,
 				E4E45FDC1EF5A77100F6FF21 /* Main.storyboard in Resources */,
+				E4E45FF21EF7543400F6FF21 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +162,7 @@
 				E4E45FD71EF5A77100F6FF21 /* AppDelegate.swift in Sources */,
 				E4E45FEE1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift in Sources */,
 				E4E45FEC1EF5A82F00F6FF21 /* WebBrowserViewController.swift in Sources */,
+				E4E45FF01EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
