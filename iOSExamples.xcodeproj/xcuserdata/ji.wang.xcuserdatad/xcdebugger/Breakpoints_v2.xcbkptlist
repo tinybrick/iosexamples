@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebBrowserInterceptor/LocalResourceURLProtocol.swift"
-            timestampString = "519527648.29599"
+            timestampString = "519530216.535686"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "canInit(with:)"
             landmarkType = "7">
             <Locations>
@@ -57,14 +57,78 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WebBrowserInterceptor/LocalResourceURLProtocol.swift"
-            timestampString = "519528819.990537"
+            filePath = "RestClient/RestClientViewController.swift"
+            timestampString = "519536029.063064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "startLoading()"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "textFieldDidEndEditing(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RestClient/RestClient.swift"
+            timestampString = "519536287.63169"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "request(method:url:completion:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RestClient/RestClient.swift"
+            timestampString = "519537317.0639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "request(method:url:completion:errorHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSExamples.RestClient.(request (method : Swift.String, url : Foundation.URL, completion : (Swift.Optional&lt;Foundation.Data&gt;) -&gt; (), errorHandler : (Swift.String) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "iOSExamples"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ji.wang/MyPrograms/Examples/iOSExamples/RestClient/RestClient.swift"
+                  timestampString = "519537317.07061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSExamples.RestClient.(request (method : Swift.String, url : Foundation.URL, completion : (Swift.Optional&lt;Foundation.Data&gt;) -&gt; (), errorHandler : (Swift.String) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "iOSExamples"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ji.wang/MyPrograms/Examples/iOSExamples/RestClient/RestClient.swift"
+                  timestampString = "519537317.076007"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

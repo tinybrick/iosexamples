@@ -34,8 +34,6 @@ class WebBrowserViewController: UIViewController, UIWebViewDelegate, UITextField
         
         myWebView!.delegate = self
         self.view.addSubview(myWebView!)
-        
-        
     }
     
     private func registerURLPorotcol(){

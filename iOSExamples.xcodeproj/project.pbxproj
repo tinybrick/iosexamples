@@ -16,6 +16,9 @@
 		E4E45FEE1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FED1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift */; };
 		E4E45FF01EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */; };
 		E4E45FF21EF7543400F6FF21 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E45FF11EF7543400F6FF21 /* test.png */; };
+		E4E45FF61EF7636900F6FF21 /* RestClient.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E45FF51EF7636900F6FF21 /* RestClient.storyboard */; };
+		E4E45FF81EF7656100F6FF21 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FF71EF7656100F6FF21 /* RestClient.swift */; };
+		E4E45FFA1EF768FF00F6FF21 /* RestClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E45FF91EF768FF00F6FF21 /* RestClientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		E4E45FED1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomizedURLProtocol.swift; path = WebBrowserInterceptor/CustomizedURLProtocol.swift; sourceTree = "<group>"; };
 		E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalResourceURLProtocol.swift; path = WebBrowserInterceptor/LocalResourceURLProtocol.swift; sourceTree = "<group>"; };
 		E4E45FF11EF7543400F6FF21 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		E4E45FF51EF7636900F6FF21 /* RestClient.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RestClient.storyboard; path = RestClient/RestClient.storyboard; sourceTree = "<group>"; };
+		E4E45FF71EF7656100F6FF21 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestClient.swift; path = RestClient/RestClient.swift; sourceTree = "<group>"; };
+		E4E45FF91EF768FF00F6FF21 /* RestClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestClientViewController.swift; path = RestClient/RestClientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 		E4E45FCA1EF5A77100F6FF21 = {
 			isa = PBXGroup;
 			children = (
+				E4E45FF41EF7630500F6FF21 /* SimpleRestClient */,
 				E4E45FE81EF5A79F00F6FF21 /* WebBrowserInterceptor */,
 				E4E45FD51EF5A77100F6FF21 /* iOSExamples */,
 				E4E45FD41EF5A77100F6FF21 /* Products */,
@@ -82,6 +89,16 @@
 				E4E45FEF1EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift */,
 			);
 			name = WebBrowserInterceptor;
+			sourceTree = "<group>";
+		};
+		E4E45FF41EF7630500F6FF21 /* SimpleRestClient */ = {
+			isa = PBXGroup;
+			children = (
+				E4E45FF51EF7636900F6FF21 /* RestClient.storyboard */,
+				E4E45FF71EF7656100F6FF21 /* RestClient.swift */,
+				E4E45FF91EF768FF00F6FF21 /* RestClientViewController.swift */,
+			);
+			name = SimpleRestClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +164,7 @@
 				E4E45FEA1EF5A7E600F6FF21 /* WebBrowser.storyboard in Resources */,
 				E4E45FDE1EF5A77100F6FF21 /* Assets.xcassets in Resources */,
 				E4E45FDC1EF5A77100F6FF21 /* Main.storyboard in Resources */,
+				E4E45FF61EF7636900F6FF21 /* RestClient.storyboard in Resources */,
 				E4E45FF21EF7543400F6FF21 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,9 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E45FD91EF5A77100F6FF21 /* ViewController.swift in Sources */,
+				E4E45FFA1EF768FF00F6FF21 /* RestClientViewController.swift in Sources */,
 				E4E45FD71EF5A77100F6FF21 /* AppDelegate.swift in Sources */,
 				E4E45FEE1EF5BFE700F6FF21 /* CustomizedURLProtocol.swift in Sources */,
 				E4E45FEC1EF5A82F00F6FF21 /* WebBrowserViewController.swift in Sources */,
+				E4E45FF81EF7656100F6FF21 /* RestClient.swift in Sources */,
 				E4E45FF01EF6D1C200F6FF21 /* LocalResourceURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
